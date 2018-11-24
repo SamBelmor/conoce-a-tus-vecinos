@@ -1,25 +1,115 @@
-<p id="notice"><%= notice %></p>
+<header>
+  <div class="small-container">
+    <%= image_tag("conoce-a-tus-vecinos", class: "logo") %>
+    <ul>
+      <%= link_to "Saber más" %>
+    </ul>
+  </div>        
+</header>
 
-<h1>Pages</h1>
+<div class="small-container">
+  <div class="col col-50">
+    <h1>Taller</h1>
+    <h4 class="title">Descarga gratis la app <br> y acércate a los vecinos de tu comunidad</h4>
+    <a class="btn blue big">App store</a>
+    <a class="btn blue big">Google play</a>
+  </div>
+  <div class="col col-50">
+    
+  </div>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-  <h1>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
-  <tbody>
-    <% @pages.each do |page| %>
-      <tr>
-        <td><%= link_to 'Show', page %></td>
-        <td><%= link_to 'Edit', edit_page_path(page) %></td>
-        <td><%= link_to 'Destroy', page, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="small-container">
+  <h4 id="segunda">¿Cuáles son los pasos necesarios para crear una página web?</h4>
+  <div class="col col-25 step">
+    # <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step1.png" alt="planifica tu contenido"/>
+    <p>Planifica tu contenido</p>
+  </div>
+  <div class="col col-25 step">
+    <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step2.png" alt="crea un diseño"/>
+    <p>Crea un diseño</p>
+  </div>
+  <div class="col col-25 step">
+    <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step3.png" alt="organiza tus elementos"/>
+    <p>Organiza tus elementos</p>
+  </div>
+  <div class="col col-25 step">
+    <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step4.png" alt="crea el HTML y CSS3 de tu página"/>
+    <p>Crea el HTML y CSS3 de tu página</p>
+  </div>
+</div>
 
-<br>
+<div class="full-container fondo-blanco">
+  <div class="small-container aprende">
+    <h2>Aprende a crear sitios fácil y rápido. Si tienes algún problema, nosotros te ayudamos.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum nulla, molestiae iste quia minus consectetur saepe natus facilis nemo tempore. Sunt, provident voluptas officia hic sequi dolore tempore minus?</p>
+  </div>
+</div>
 
-<%= link_to 'New Page', new_page_path %>
+<div class="full-container">
+  <div class="small-container">
+    <div class="col col-50">  
+      <img class="img1" src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/feat1.jpeg" alt="imagen"/>     
+    </div>
+    <div class="col col-50 text-content">  
+      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/img2.png" alt="imagen"/>
+      <h3>Con HTML Y CSS puedes crear páginas página web no es ninguna ciencia, solo basta tu imaginación</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti possimus temporibus officiis voluptas quibusdam, ipsam incidunt voluptatem quos vel repellat perspiciatis molestiae delectus voluptatum nobis pariatur optio dignissimos, nam suscipit.</p>    
+    </div>
+  </div> 
+</div>
+
+<div class="full-container fondo-blanco">
+  <div class="small-container">
+    <div class="col col-50 text-content">
+      <h3>Texto1</h3>
+      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/img3.png" alt="imagen"/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo ad et quasi ratione alias assumenda totam rerum aspernatur nemo commodi quam officiis sapiente eum repellendus sequi fugiat, accusamus ut?</p>
+    </div>
+    <div class="col col-50">
+      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/feat2.jpeg" alt="imagen">
+    </div>
+  </div>
+</div>
+
+<div class="full-container">
+  <div class="small-container">
+    <div class="col col-50 text-content">
+      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/feat3.jpeg" alt="img"/>
+    </div>
+    <div class="col col-50">
+      <h3>Explora, nunca te quedes con lo que sabes</h3>
+      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/img4.png" alt="imagen"/>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum enim rem quasi deserunt excepturi ex mollitia! Incidunt, ratione temporibus quisquam ad id cupiditate, maiores mollitia rem earum omnis, quos deserunt.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="small-container">
+    <ul class="col col-25">
+      <li><a href="#inicio">Inicio</a></li>
+      <li>Opción 2</li>
+      <li>Opción 3</li>
+      <li>Opción 4</li>
+    </ul>
+    <ul class="col col-25">
+      <li><a href="#segunda">Segunda sección</a></li>
+      <li><a href="https://google.com" target="_blank">Más información</a></li>
+      <li>Opción 3</li>
+      <li>Opción 4</li>
+    </ul>
+    <ul class="col col-25">
+      <li>Opción 1</li>
+      <li>Opción 2</li>
+      <li>Opción 3</li>
+      <li>Opción 4</li>
+    </ul>
+    <ul class="col col-25">
+      <li>Opción 1</li>
+      <li>Opción 2</li>
+      <li>Opción 3</li>
+      <li>Opción 4</li>
+    </ul>
+  </div>
+</footer>
