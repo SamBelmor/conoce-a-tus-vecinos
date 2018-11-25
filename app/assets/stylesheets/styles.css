@@ -17,7 +17,7 @@ header {
   box-sizing: border-box;
 }
 
-.facebook, .twitter {
+.facebook, .twitter, .instagram, .github-logo {
   width: 40px;
   margin-right: 20px;
 }
@@ -59,7 +59,9 @@ header ul li {
   width: 100%;
   max-width: 1500px;
 }
-
+.title{
+  text-align: left;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -112,8 +114,8 @@ h1 {
   font-size: 3.5em;
   font-weight: 100;
 }
-.title{
-  text-align: center;  
+.titleloc{
+  text-align: center;
 }
 .Mapa{
 

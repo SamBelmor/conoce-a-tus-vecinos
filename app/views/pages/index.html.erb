@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <header>
   <div class="small-container">
     <%= image_tag("conoce-a-tus-vecinos", class: "logo") %>
@@ -12,7 +13,7 @@
     <%= image_tag ("android-iphone.png"), class: "android-iphone" %>
   </div>
   <div class="col col-50 description">
-    <h4 class="title">Descarga gratis la app <br> y acércate a los vecinos de tu comunidad</h4>
+    <h4 class="titleloc">Descarga gratis la app <br> y acércate a los vecinos de tu comunidad</h4>
     <center>
       <a class="btn blue big">App store</a>
       <a class="btn blue big">Google play</a>
@@ -20,7 +21,7 @@
   </div>
 </div>
 
-<div class="full-container fondo-blanco">
+<div class="full-container fondo-blanco title">
   <div class="small-container">
     <div class="col col-50">
       <h4>Identifica la comunidad de tus vecinos a través de tu código postal</h4>
@@ -31,47 +32,8 @@
     </div>
   </div>
 </div>
-
-<div class="full-container">
-  <div class="small-container">
-    <div class="col col-50">
-      <img class="img1" src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/feat1.jpeg" alt="imagen"/>
-    </div>
-    <div class="col col-50 text-content">
-      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/img2.png" alt="imagen"/>
-      <h3>Con HTML Y CSS puedes crear páginas página web no es ninguna ciencia, solo basta tu imaginación</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti possimus temporibus officiis voluptas quibusdam, ipsam incidunt voluptatem quos vel repellat perspiciatis molestiae delectus voluptatum nobis pariatur optio dignissimos, nam suscipit.</p>
-    </div>
-  </div>
-</div>
-
-<div class="full-container fondo-blanco">
-  <div class="small-container">
-    <div class="col col-50 text-content">
-      <h3>Texto1</h3>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo ad et quasi ratione alias assumenda totam rerum aspernatur nemo commodi quam officiis sapiente eum repellendus sequi fugiat, accusamus ut?</p>
-    </div>
-    <div class="col col-50">
-
-    </div>
-  </div>
-</div>
-
-<div class="full-container">
-  <div class="small-container">
-    <div class="col col-50 text-content">
-      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/feat3.jpeg" alt="img"/>
-    </div>
-    <div class="col col-50">
-      <h3>Explora, nunca te quedes con lo que sabes</h3>
-      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/img4.png" alt="imagen"/>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum enim rem quasi deserunt excepturi ex mollitia! Incidunt, ratione temporibus quisquam ad id cupiditate, maiores mollitia rem earum omnis, quos deserunt.</p>
-    </div>
-  </div>
-</div>
-<div class="full-container localizacion fondo-blanco ">
-  <div class="small-container title">
+<div class="full-container localizacion ">
+  <div class="small-container titleloc">
 
       <h1>Localizanos en nuestras oficinas</h1>
 
@@ -83,10 +45,16 @@
 </div>
 <footer>
   <center>
-    <div class="small-container">
-      <h5>Contáctanos</h5>
-      <span><%= image_tag ("fb.png"), class: "facebook" %></span>
-      <span><%= image_tag ("twitter.jpeg"), class: "twitter" %></span>
+    <div class="full-container fondo-blanco">
+      <div class="small-container">
+        <h4>Contáctanos</h4>
+
+        <span><%= image_tag ("facebook.png"), class: "facebook" %></span>
+        <span><%= image_tag ("twitter.png"), class: "twitter" %></span>
+        <span><%= image_tag ("github-logo.png"), class: "github-logo" %></span>
+        <span><%= image_tag ("instagram.png"), class: "instagram" %></span>
+
+      </div>
     </div>
   </center>
 </footer>
