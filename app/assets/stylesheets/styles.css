@@ -27,7 +27,7 @@ header {
 }
 
 .description {
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 header ul {
@@ -156,6 +156,20 @@ h1, h2, h3, h4 {
 p {
   font-weight: 300;
   line-height: 1.5em;
+}
+
+.noticias {
+  width:550px;
+  height:650px;
+}
+
+.second {
+  margin-top: 30px;
+}
+
+.identifica {
+  margin-right: 30px;
+  margin-top: 110px;
 }
 
 .step p {
