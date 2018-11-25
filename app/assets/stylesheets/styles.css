@@ -21,6 +21,10 @@ header {
   width: 220px;
 }
 
+.description {
+  margin-top: 100px;
+}
+
 header ul {
   list-style: none;
   float: right;
