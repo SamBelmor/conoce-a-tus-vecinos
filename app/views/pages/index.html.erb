@@ -9,40 +9,26 @@
 
 <div class="small-container">
   <div class="col col-50">
-    <h1>Taller</h1>
+    <%= image_tag ("android-iphone.png"), class: "android-iphone" %>
+  </div>
+  <div class="col col-50 description">
     <h4 class="title">Descarga gratis la app <br> y acércate a los vecinos de tu comunidad</h4>
-    <a class="btn blue big">App store</a>
-    <a class="btn blue big">Google play</a>
-  </div>
-  <div class="col col-50">
-
-  </div>
-</div>
-
-<div class="small-container">
-  <h4 id="segunda">¿Cuáles son los pasos necesarios para crear una página web?</h4>
-  <div class="col col-25 step">
-    # <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step1.png" alt="planifica tu contenido"/>
-    <p>Planifica tu contenido</p>
-  </div>
-  <div class="col col-25 step">
-    <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step2.png" alt="crea un diseño"/>
-    <p>Crea un diseño</p>
-  </div>
-  <div class="col col-25 step">
-    <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step3.png" alt="organiza tus elementos"/>
-    <p>Organiza tus elementos</p>
-  </div>
-  <div class="col col-25 step">
-    <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/step4.png" alt="crea el HTML y CSS3 de tu página"/>
-    <p>Crea el HTML y CSS3 de tu página</p>
+    <center>
+      <a class="btn blue big">App store</a>
+      <a class="btn blue big">Google play</a>
+    </center>
   </div>
 </div>
 
 <div class="full-container fondo-blanco">
-  <div class="small-container aprende">
-    <h2>Aprende a crear sitios fácil y rápido. Si tienes algún problema, nosotros te ayudamos.</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum nulla, molestiae iste quia minus consectetur saepe natus facilis nemo tempore. Sunt, provident voluptas officia hic sequi dolore tempore minus?</p>
+  <div class="small-container">
+    <div class="col col-50">
+      <h4>Identifica la comunidad de tus vecinos a través de tu código postal</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum nulla, molestiae iste quia minus consectetur saepe natus facilis nemo tempore. Sunt, provident voluptas officia hic sequi dolore tempore minus?</p>
+    </div>
+    <div class="col col-50">
+      <%= image_tag("Map", class: "Mapa") %>
+    </div>
   </div>
 </div>
 
@@ -63,11 +49,11 @@
   <div class="small-container">
     <div class="col col-50 text-content">
       <h3>Texto1</h3>
-      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/img3.png" alt="imagen"/>
+
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo ad et quasi ratione alias assumenda totam rerum aspernatur nemo commodi quam officiis sapiente eum repellendus sequi fugiat, accusamus ut?</p>
     </div>
     <div class="col col-50">
-      <img src="/home/sambelmor/Documents/HTML-CSS/Curso HTML-CSS/static/media/feat2.jpeg" alt="imagen">
+
     </div>
   </div>
 </div>
@@ -84,10 +70,16 @@
     </div>
   </div>
 </div>
-<div class="full-container">
-  <div class="small-container">
-    <%= image_tag("Map", class: "logo") %>
+<div class="full-container localizacion fondo-blanco ">
+  <div class="small-container title">
+
+      <h1>Localizanos en nuestras oficinas</h1>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.655911066017!2d-103.6899736878075!3d19.25522731996561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255a8ec6a7ee45%3A0xd06c856c6d209076!2sSalas+de+Convenciones!5e0!3m2!1ses-419!2smx!4v1543159443215" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+
   </div>
+
 </div>
 <footer>
   <div class="small-container">
@@ -117,5 +109,3 @@
     </ul>
   </div>
 </footer>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15067.463879229004!2d-103.69995825!3d19.2446722!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1543105179593" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
